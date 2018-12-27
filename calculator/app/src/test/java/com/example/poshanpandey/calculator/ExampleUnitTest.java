@@ -1,4 +1,4 @@
-package com.example.poshanpandey.myapplication3;
+package com.example.poshanpandey.calculator;
 
 import org.junit.Test;
 
