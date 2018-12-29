@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="chowmein">Chowmein</string>
+    <string name="momo">Momo</string>
+    <string name="burger">Burger</string>
+    <string name="select">Select</string>
+</resources>
