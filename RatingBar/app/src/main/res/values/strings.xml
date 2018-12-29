@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RatingBar</string>
+    <string name="textview">TextView</string>
+    <string name="submit">Submit</string>
+</resources>
