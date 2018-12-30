@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnalogAndDigitalClockExample</string>
+    <string name="digital">Digital</string>
+    <string name="analog">Analog</string>
+    <string name="this_is_digital_clock">This is digital clock.</string>
+    <string name="this_is_analog_clock">This is analog clock.</string>
+</resources>
