@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageVIew</string>
+    <string name="switchimage">switchImage</string>
+    <string name="this_is_logo">this is logo.</string>
+</resources>
