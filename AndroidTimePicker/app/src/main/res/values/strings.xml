@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidTimePicker</string>
+    <string name="showtime">ShowTime</string>
 </resources>
