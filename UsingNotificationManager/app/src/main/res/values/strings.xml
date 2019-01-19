@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UsingNotificationManager</string>
+    <string name="notifyme">NotifyMe</string>
+</resources>
