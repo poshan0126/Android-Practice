@@ -11,7 +11,7 @@
         android:layout_width="213dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="152dp"
         android:text="@string/activityui2"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent" />
@@ -20,8 +20,8 @@
         android:id="@+id/button2"
         android:layout_width="211dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="240dp"
         android:text="@string/activityui1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
