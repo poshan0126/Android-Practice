@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="created_by_poshan_pandey">Created By: Poshan Pandey</string>
+    <string name="by_poshan_pandey">By:Poshan Pandey</string>
+    <string name="by_nischal_shrestha">By_Nischal_Shrestha</string>
+</resources>
