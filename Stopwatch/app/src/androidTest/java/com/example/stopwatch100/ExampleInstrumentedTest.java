@@ -1,4 +1,4 @@
-package com.example.stopwatch;
+package com.example.stopwatch100;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

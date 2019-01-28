@@ -1,4 +1,4 @@
-package com.example.stopwatch;
+package com.example.stopwatch100;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
