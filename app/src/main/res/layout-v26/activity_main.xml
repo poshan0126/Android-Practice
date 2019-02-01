@@ -18,7 +18,7 @@
         android:textStyle="bold"
         android:fontFamily="serif-monospace"
         android:textColor="#3e2723"
-        android:text="Tic Tac Toe Multiplayer" />
+        android:text="@string/tic_tac_toe_multiplayer" />
 
     <EditText
         android:id="@+id/e1"
@@ -26,10 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
         android:ems="10"
-        android:hint="First Player"
-        android:text="Chandler"
+        android:hint="@string/first_player"
+        android:text="@string/chandler"
         android:layout_margin="20dp"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/e2"

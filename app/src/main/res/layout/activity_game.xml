@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/play"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/scoreLayout"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="Score:"
+            android:textColor="#3e2723"
+            android:textSize="40sp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="First Payer[X]: 0"
+            android:id="@+id/p1TV"
+            android:layout_margin="5dp"
+            android:textColor="#3e2723"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2TV"
+            android:fontFamily="casual"
+            android:text="Second Payer[0]: 0"
+            android:textColor="#3e2723"
+            android:layout_margin="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreLayout"
+        android:id="@+id/boardLayout"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout android:layout_height="100dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+
+        <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_00" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+        <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_01" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+        <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_02" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+    </LinearLayout>
+        <LinearLayout android:layout_height="100dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_10" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_11" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_12" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="100dp" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_20" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_21" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+            <Button android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/btn_22" android:textSize="70sp" android:fontFamily="casual" android:layout_weight="1" android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Reset Board"
+        android:id="@+id/resetBtn"
+        android:layout_below="@id/boardLayout"/>
+
+</RelativeLayout>
