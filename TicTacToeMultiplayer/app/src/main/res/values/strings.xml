@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Tic Tac Toe Multiplayer</string>
-    <string name="player_1_x_0">player 1[X]:0</string>
-    <string name="score">Score:</string>
-    <string name="reset_board">Reset Board</string>
-    <string name="player_2_0_0">player 2[0]:0</string>
-    <string name="tic_tac_toe_multiplayer">Tic Tac Toe Multiplayer</string>
-    <string name="chandler">Chandler</string>
-</resources>
