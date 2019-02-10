@@ -1,12 +1,9 @@
-package com.example.noname;
+package com.example.implicitintentdemo;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-
-import com.example.noname.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void openOne(View view){
-        Intent intent = new Intent(this, ActivityOneAppOne.class);
+    public void openPrevious(View view){
+        Intent intent = new Intent(".ActivityOneAppOn");
         startActivity(intent);
     }
 }
