@@ -10,10 +10,10 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="79dp"
-        android:text="@string/start_service"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="80dp"
         android:onClick="startService"
+        android:text="@string/start_service"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent" />
