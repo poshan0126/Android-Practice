@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382551804234",
+    "firebase_url": "https://project1-4e387.firebaseio.com",
+    "project_id": "project1-4e387",
+    "storage_bucket": "project1-4e387.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382551804234:android:50d8eec3bb35e0d8",
+        "android_client_info": {
+          "package_name": "com.frustatedindian.projectone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382551804234-laqeevdrlfsmc8kc1851f1l843krv9q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJTZM6aW3clF7wm-Rj_do6IbLD3uZtYhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382551804234-laqeevdrlfsmc8kc1851f1l843krv9q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
