@@ -67,11 +67,11 @@ Widget titleSection = Container(
           ],
         ),
       ),
-      Text('41'),
       Icon(
         Icons.star,
-        color:Colors.red[500],
-      )
+        color:Colors.red[500]
+      ),
+      Text('41')
     ],
   ),
 );
